@@ -5,22 +5,22 @@ import { Link } from 'react-router-dom';
 const Home: React.FC = () => {
   const testimonials = [
     {
-      quote: "Elevate Events transformed our brand launch into a masterpiece. Their attention to detail is truly unparalleled.",
-      author: "Sarah Jenkins",
-      role: "CMO at TechFlow",
-      category: "Corporate"
+      quote: "ABDIL Events mengubah peluncuran brand kami menjadi sebuah mahakarya. Perhatian mereka terhadap detail benar-benar tidak tertandingi.",
+      author: "Siti Rahma",
+      role: "Direktur Kreatif PT Maju Jaya",
+      category: "Korporat"
     },
     {
-      quote: "The most seamless wedding planning experience imaginable. Minimalist, elegant, and perfectly 'us'.",
-      author: "David & Elena",
-      role: "Newlyweds",
-      category: "Wedding"
+      quote: "Pengalaman perencanaan pernikahan paling lancar yang pernah kami bayangkan. Minimalis, elegan, dan sangat mencerminkan diri kami.",
+      author: "Budi & Linda",
+      role: "Pasangan Pengantin",
+      category: "Pernikahan"
     },
     {
-      quote: "Professionalism at its peak. They don't just plan events; they design lasting memories that resonate.",
-      author: "Marcus Thorne",
-      role: "Executive Director",
-      category: "Private Gala"
+      quote: "Profesionalisme di puncaknya. Mereka tidak hanya merencanakan acara, mereka merancang kenangan abadi yang berkesan bagi semua tamu.",
+      author: "Aditya Pratama",
+      role: "Pengusaha",
+      category: "Gala Privat"
     }
   ];
 
@@ -28,7 +28,7 @@ const Home: React.FC = () => {
     {
       number: "01",
       title: "Discovery & Consultation",
-      description: "We listen to your vision, understand your needs, and discuss initial concepts.",
+      description: "Kami mendengarkan visi Anda, memahami kebutuhan Anda, dan mendiskusikan konsep awal.",
       color: "bg-blue-50 text-blue-500",
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -39,7 +39,7 @@ const Home: React.FC = () => {
     {
       number: "02",
       title: "Planning & Design",
-      description: "Our team creates detailed plans, mood boards, and custom designs tailored to your event.",
+      description: "Tim kami membuat rencana detail, mood board, dan desain khusus yang disesuaikan dengan acara Anda.",
       color: "bg-green-50 text-green-500",
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -50,7 +50,7 @@ const Home: React.FC = () => {
     {
       number: "03",
       title: "Coordination & Preparation",
-      description: "We handle vendor coordination, logistics, and all preparations behind the scenes.",
+      description: "Kami menangani koordinasi vendor, logistik, dan semua persiapan di balik layar.",
       color: "bg-purple-50 text-purple-500",
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -61,7 +61,7 @@ const Home: React.FC = () => {
     {
       number: "04",
       title: "Execution & Management",
-      description: "On the day, our team ensures everything runs smoothly while you enjoy the moment.",
+      description: "Pada hari H, tim kami memastikan semuanya berjalan lancar sementara Anda menikmati momen tersebut.",
       color: "bg-yellow-50 text-yellow-500",
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -72,7 +72,7 @@ const Home: React.FC = () => {
     {
       number: "05",
       title: "Final Touches & Review",
-      description: "We add final touches, manage timelines, and ensure perfection in every detail.",
+      description: "Kami menambahkan sentuhan akhir, mengelola jadwal, dan memastikan kesempurnaan di setiap detail.",
       color: "bg-pink-50 text-pink-500",
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -83,7 +83,7 @@ const Home: React.FC = () => {
     {
       number: "06",
       title: "Celebration & Follow-up",
-      description: "After the event, we gather feedback and share memories captured during the celebration.",
+      description: "Setelah acara, kami mengumpulkan umpan balik dan membagikan kenangan yang diabadikan.",
       color: "bg-orange-50 text-orange-500",
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -113,11 +113,11 @@ const Home: React.FC = () => {
             <span className="italic font-light">Designers.</span>
           </h1>
           <p className="text-lg md:text-xl text-neutral-600 mb-10 max-w-2xl mx-auto leading-relaxed">
-            We transform ordinary spaces into extraordinary experiences. Minimalism meets meticulous planning.
+            Kami mengubah ruang biasa menjadi pengalaman luar biasa. Minimalisme bertemu dengan perencanaan yang teliti.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link to="/portfolio" className="bg-neutral-900 text-white px-10 py-4 rounded-full font-medium hover:bg-neutral-800 transition-all w-full sm:w-auto">
-              View Our Work
+              Lihat Karya Kami
             </Link>
           </div>
         </div>
@@ -127,7 +127,7 @@ const Home: React.FC = () => {
       <section className="py-16 px-6 bg-white border-y border-neutral-100">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-serif italic text-neutral-800 leading-snug">
-            "Details are not the details. <br /> They make the design."
+            "Detail bukanlah sekadar detail. <br /> Mereka adalah nyawa dari desain."
           </h2>
           <div className="w-12 h-px bg-neutral-300 mx-auto mt-8"></div>
           <p className="mt-8 text-neutral-500 uppercase tracking-widest text-xs font-semibold">Charles Eames</p>
@@ -140,18 +140,30 @@ const Home: React.FC = () => {
           <div className="flex justify-between items-end mb-12">
             <div className="max-w-xl">
               <h3 className="text-sm font-bold uppercase tracking-widest text-neutral-400 mb-4">Our Expertise</h3>
-              <h2 className="text-4xl font-serif font-bold text-neutral-900">Curating impeccable moments across all sectors.</h2>
+              <h2 className="text-4xl font-serif font-bold text-neutral-900">Setiap sektor dipersembahkan melalui kurasi momen yang elegan dan berkelas.</h2>
             </div>
             <Link to="/services" className="hidden md:block text-neutral-900 font-semibold border-b-2 border-neutral-900 pb-1">
-              Explore All Services
+              Jelajahi Semua Layanan
             </Link>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {[
-              { title: 'Corporate Galas', img: 'https://images.unsplash.com/photo-1505373633560-24838db10462?auto=format&fit=crop&q=80&w=800&h=1000', desc: 'Sleek, professional, and impactful events that represent your brand ethos.' },
-              { title: 'Intimate Weddings', img: 'https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&q=80&w=800&h=1000', desc: 'Focusing on the connection. Minimalist aesthetics with soul-stirring details.' },
-              { title: 'Private Soirées', img: 'https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&q=80&w=800&h=1000', desc: 'Exclusive gatherings defined by elegance and effortless luxury.' }
+              { 
+                title: 'Corporate Galas', 
+                img: 'https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&q=80&w=800&h=1000', 
+                desc: 'Acara yang elegan, profesional, dan berdampak yang mewakili etos brand Anda.' 
+              },
+              { 
+                title: 'Intimate Weddings', 
+                img: 'https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=800&h=1000', 
+                desc: 'Fokus pada koneksi. Estetika minimalis dengan detail yang menyentuh jiwa.' 
+              },
+              { 
+                title: 'Private Soirées', 
+                img: 'https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&q=80&w=800&h=1000', 
+                desc: 'Pertemuan eksklusif yang didefinisikan oleh keanggunan dan kemewahan yang bersahaja.' 
+              }
             ].map((item, idx) => (
               <div key={idx} className="group cursor-pointer">
                 <div className="relative overflow-hidden aspect-[4/5] mb-6">
@@ -174,11 +186,11 @@ const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <span className="inline-block px-4 py-1 mb-4 text-[10px] font-bold tracking-widest uppercase bg-yellow-100 text-yellow-700 rounded-full">
-              Our Process
+              Proses Kami
             </span>
-            <h2 className="text-4xl md:text-5xl font-serif font-bold text-neutral-900 mb-4">How We Create Magic</h2>
+            <h2 className="text-4xl md:text-5xl font-serif font-bold text-neutral-900 mb-4">Bagaimana Kami Menciptakan Keajaiban</h2>
             <p className="text-neutral-500 max-w-2xl mx-auto text-lg leading-relaxed">
-              A seamless 6-step process that ensures your event is executed flawlessly from start to finish.
+              Sebuah proses 6 langkah yang mulus untuk memastikan acara Anda dijalankan tanpa cela dari awal hingga akhir.
             </p>
           </div>
 
@@ -195,7 +207,7 @@ const Home: React.FC = () => {
                       <div className={`w-12 h-12 rounded-xl ${step.color} flex items-center justify-center mb-5`}>
                         {step.icon}
                       </div>
-                      <span className="text-xs font-bold text-neutral-400 uppercase tracking-widest block mb-1">Step {step.number}</span>
+                      <span className="text-xs font-bold text-neutral-400 uppercase tracking-widest block mb-1">Langkah {step.number}</span>
                       <h3 className="text-xl font-serif font-bold text-neutral-900 mb-3">{step.title}</h3>
                       <p className="text-sm text-neutral-500 leading-relaxed">{step.description}</p>
                     </div>
@@ -217,15 +229,15 @@ const Home: React.FC = () => {
           <div className="max-w-4xl mx-auto">
              <div className="relative p-1 rounded-2xl bg-gradient-to-br from-yellow-500 via-neutral-200 to-blue-600">
                 <div className="bg-white rounded-[14px] p-8 md:p-12 text-center">
-                   <h2 className="text-3xl md:text-4xl font-serif font-bold text-neutral-900 mb-4">Ready to Start Your Journey?</h2>
+                   <h2 className="text-3xl md:text-4xl font-serif font-bold text-neutral-900 mb-4">Siap untuk Memulai Perjalanan Anda?</h2>
                    <p className="text-neutral-500 mb-8 max-w-xl mx-auto">
-                      Schedule a free consultation with our event specialists and let's bring your vision to life.
+                      Jadwalkan konsultasi gratis dengan spesialis acara kami dan mari wujudkan visi Anda menjadi nyata.
                    </p>
                    <Link 
                       to="/contact" 
                       className="inline-block bg-[#EAB308] hover:bg-yellow-600 text-white font-bold px-8 py-4 rounded-lg transition-all shadow-lg hover:shadow-xl active:scale-95"
                     >
-                      Book Free Consultation
+                      Pesan Konsultasi Gratis
                    </Link>
                 </div>
              </div>
@@ -271,12 +283,12 @@ const Home: React.FC = () => {
             </svg>
          </div>
         <div className="max-w-5xl mx-auto relative z-10">
-          <h2 className="text-4xl md:text-6xl font-serif font-bold mb-8">Ready to elevate your <br /> next experience?</h2>
+          <h2 className="text-4xl md:text-6xl font-serif font-bold mb-8">Siap meningkatkan <br /> pengalaman Anda berikutnya?</h2>
           <p className="text-xl text-neutral-400 mb-12 max-w-2xl">
-            Our team is ready to assist you in bringing your vision to reality. Let's create something unforgettable together.
+            Tim kami siap membantu Anda membawa visi Anda menjadi kenyataan. Mari ciptakan sesuatu yang tak terlupakan bersama.
           </p>
           <Link to="/contact" className="inline-block bg-white text-neutral-900 px-12 py-5 rounded-full font-bold hover:bg-neutral-100 transition-all">
-            Start a Conversation
+            Mulai Percakapan
           </Link>
         </div>
       </section>

@@ -3,24 +3,24 @@ import React from 'react';
 
 const Portfolio: React.FC = () => {
   const projects = [
-    { title: 'The Monochrome Gala', category: 'Corporate', img: 'https://picsum.photos/seed/proj1/1000/1200' },
-    { title: 'Alpine Serenity Wedding', category: 'Wedding', img: 'https://picsum.photos/seed/proj2/1000/1200' },
-    { title: 'Lumina Brand Launch', category: 'Commercial', img: 'https://picsum.photos/seed/proj3/1000/1200' },
-    { title: 'Industrial Chic Soirée', category: 'Private', img: 'https://picsum.photos/seed/proj4/1000/1200' },
-    { title: 'Coastal Retreat Brunch', category: 'Social', img: 'https://picsum.photos/seed/proj5/1000/1200' },
-    { title: 'Artisan Workshop Series', category: 'Cultural', img: 'https://picsum.photos/seed/proj6/1000/1200' },
+    { title: 'The Monochrome Gala', category: 'Korporat', img: 'https://picsum.photos/seed/proj1/1000/1200' },
+    { title: 'Alpine Serenity Wedding', category: 'Pernikahan', img: 'https://picsum.photos/seed/proj2/1000/1200' },
+    { title: 'Lumina Brand Launch', category: 'Komersial', img: 'https://picsum.photos/seed/proj3/1000/1200' },
+    { title: 'Industrial Chic Soirée', category: 'Privat', img: 'https://picsum.photos/seed/proj4/1000/1200' },
+    { title: 'Coastal Retreat Brunch', category: 'Sosial', img: 'https://picsum.photos/seed/proj5/1000/1200' },
+    { title: 'Artisan Workshop Series', category: 'Budaya', img: 'https://picsum.photos/seed/proj6/1000/1200' },
   ];
 
   return (
     <div className="pt-32 pb-24 px-6">
       <div className="max-w-7xl mx-auto">
         <header className="mb-20">
-          <h1 className="text-5xl md:text-7xl font-serif font-bold text-neutral-900 mb-8">Portfolio</h1>
+          <h1 className="text-5xl md:text-7xl font-serif font-bold text-neutral-900 mb-8">Portofolio</h1>
           <div className="flex flex-wrap gap-8 text-sm font-medium text-neutral-400 uppercase tracking-widest">
-            <button className="text-neutral-900 border-b border-neutral-900 pb-1">All Work</button>
-            <button className="hover:text-neutral-900 transition-colors">Corporate</button>
-            <button className="hover:text-neutral-900 transition-colors">Weddings</button>
-            <button className="hover:text-neutral-900 transition-colors">Social</button>
+            <button className="text-neutral-900 border-b border-neutral-900 pb-1">Semua Karya</button>
+            <button className="hover:text-neutral-900 transition-colors">Korporat</button>
+            <button className="hover:text-neutral-900 transition-colors">Pernikahan</button>
+            <button className="hover:text-neutral-900 transition-colors">Sosial</button>
           </div>
         </header>
 

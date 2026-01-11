@@ -4,24 +4,24 @@ import React from 'react';
 const Services: React.FC = () => {
   const serviceList = [
     {
-      title: "Strategic Event Planning",
-      description: "Comprehensive end-to-end management from initial concept to post-event analysis. We handle the logistics so you can focus on the experience.",
-      details: ["Conceptualization", "Timeline Management", "Budget Allocation", "Venue Sourcing"]
+      title: "Perencanaan Acara Strategis",
+      description: "Manajemen ujung-ke-ujung yang komprehensif mulai dari konsep awal hingga analisis pasca-acara. Kami menangani logistik sehingga Anda dapat fokus pada pengalaman tersebut.",
+      details: ["Konseptualisasi", "Manajemen Jadwal", "Alokasi Anggaran", "Pencarian Lokasi"]
     },
     {
-      title: "Creative Design & Curation",
-      description: "Aesthetic alignment is our specialty. We create visual narratives that transform venues and enchant guests through minimalism and style.",
-      details: ["Mood Boarding", "Floral & Decor Design", "Spatial Planning", "Lighting Direction"]
+      title: "Desain Kreatif & Kurasi",
+      description: "Penyelarasan estetika adalah keahlian kami. Kami menciptakan narasi visual yang mengubah lokasi dan memikat tamu melalui minimalisme dan gaya.",
+      details: ["Mood Boarding", "Desain Dekorasi & Bunga", "Perencanaan Ruang", "Arahan Pencahayaan"]
     },
     {
-      title: "Vendor Partnerships",
-      description: "Access our exclusive network of premium vendors who share our commitment to quality and excellence.",
-      details: ["Catering Excellence", "Entertainment Curation", "Technical Production", "Artisan Partnerships"]
+      title: "Kemitraan Vendor",
+      description: "Akses jaringan eksklusif vendor premium kami yang berbagi komitmen kami terhadap kualitas dan keunggulan.",
+      details: ["Keunggulan Katering", "Kurasi Hiburan", "Produksi Teknis", "Kemitraan Pengrajin"]
     },
     {
-      title: "On-site Coordination",
-      description: "A seamless execution is invisible. Our team manages every moving part on the day of the event with calm precision.",
-      details: ["Guest Relations", "Show Direction", "Production Oversight", "Hospitality Management"]
+      title: "Koordinasi di Lokasi",
+      description: "Eksekusi yang mulus adalah yang tak terlihat. Tim kami mengelola setiap bagian yang bergerak pada hari acara dengan ketenangan dan presisi.",
+      details: ["Hubungan Tamu", "Arahan Pertunjukan", "Pengawasan Produksi", "Manajemen Perhotelan"]
     }
   ];
 
@@ -31,7 +31,7 @@ const Services: React.FC = () => {
         <header className="max-w-3xl mb-24">
           <h1 className="text-5xl md:text-7xl font-serif font-bold text-neutral-900 mb-8">Our Services</h1>
           <p className="text-xl text-neutral-600 leading-relaxed">
-            We provide a tailored suite of services designed for those who value quality over quantity and timeless elegance over fleeting trends.
+            Kami menyediakan rangkaian layanan yang dirancang khusus bagi mereka yang menghargai kualitas daripada kuantitas dan keanggunan abadi dibandingkan tren sesaat.
           </p>
         </header>
 

@@ -8,10 +8,10 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
         <div className="col-span-1 md:col-span-1">
           <Link to="/" className="text-2xl font-serif font-bold tracking-tight text-white mb-6 block">
-            ELEVATE<span className="text-neutral-500 font-light">EVENTS</span>
+            ABDIL<span className="text-neutral-500 font-light">EVENTS</span>
           </Link>
           <p className="text-sm leading-relaxed max-w-xs">
-            Crafting bespoke experiences that resonate. From corporate galas to intimate celebrations, we bring your vision to life with precision and style.
+            Menciptakan pengalaman yang disesuaikan dan berkesan. Dari acara gala korporat hingga perayaan intim, kami mewujudkan visi Anda dengan presisi dan gaya.
           </p>
         </div>
 
@@ -38,9 +38,9 @@ const Footer: React.FC = () => {
         <div>
           <h4 className="text-white font-medium mb-6">Contact</h4>
           <ul className="space-y-4 text-sm">
-            <li>hello@elevateevents.com</li>
-            <li>+1 (555) 123-4567</li>
-            <li>123 Creative Studio, Art District<br />Los Angeles, CA 90210</li>
+            <li>abdilevent@gmail.com</li>
+            <li>+62 8123456789</li>
+            <li>Jl. Berok Raya 95-1, Kurao Pagang,<br />Kec. Nanggalo, Kota Padang,<br />Sumatera Barat 25173</li>
           </ul>
         </div>
       </div>
