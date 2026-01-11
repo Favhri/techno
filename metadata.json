@@ -1,0 +1,8 @@
+{
+  "name": "Elevate Events - Premier Event Organizer",
+  "description": "A minimalist and sophisticated event organizer website featuring AI-powered event conceptualization.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
